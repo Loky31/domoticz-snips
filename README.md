@@ -1,3 +1,7 @@
+Last change :
+Add of lot of exemple and keywords that allow to simplify the creation of dummy switch on Domoticz side.
+
+
 # Generated Snips skill
 
 This is a generated Python 3 snips app, using the `snips-template` tool.
