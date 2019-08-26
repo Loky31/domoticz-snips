@@ -123,7 +123,7 @@ def subscribe_intent_callback(hermes, intentMessage):
     conf = read_configuration_file(CONFIG_INI)
     print(conf)
     #a=IntentClassifierResult(intentMessage).intent_name
-    hermes.publish_continue_session(intentMessage.session_id, "OK",["Loky31:IntentLumiere","Loky31:IntentOrdreDivers"])
+    hermes.publish_continue_session(intentMessage.session_id, "Très bien",["Loky31:IntentLumiere","Loky31:IntentOrdreDivers"])
     if len(intentMessage.slots.OrdreDivers) > 0:
      print('---------OrdreDivers----------')
      action_wrapperOrdreDirect(hermes, intentMessage, conf)
