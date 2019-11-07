@@ -166,7 +166,7 @@ def action_wrapperOrdre(hermes, intentMessage, conf):
     if myAction and len(intentSwitchActionList)>0: 
         hermes.publish_end_session(intentMessage.session_id, actionText)
     else:
-        hermes.publish_continue_session(intentMessage.session_id,"pouvez vous répéter, je n'ai pas compris",["Loky31:IntentLumiere"])
+        hermes.publish_continue_session(intentMessage.session_id,"pouvez vous répéter je n'ai pas compris",["Loky31:IntentLumiere","Loky31:IntentOrdreDivers"])
         print("continu session")
         #hermes.publish_end_session(intentMessage.session_id, "pouvez vous répéter, je n'ai pas compris")
     
